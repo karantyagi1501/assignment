@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <title>Welcome Screen</title>
+    <style>
+        h2.profile {
+            font-size: 35px;
+            margin-top: 4%;
+            margin-left: 4%;
+            color: #002366;
+        }
+        
+        .user-info {
+            margin-top: 2%;
+            margin-left: 4%;
+        }
+        
+        .user-info p {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+        
+        button.logout {
+            padding: 8px 25px;
+            background: #002366;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 2%;
+            margin-left: 5%;
+            cursor: pointer;
+            z-index: 5;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Good health</h2>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user"></i> Profile
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-address-card"></i> About
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-address-book"></i> Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-map-pin"></i> Map
+                    </a>
+                </li>
+            </ul>
+            <div class="social_media">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="main_content">
+            <h2 class="profile">User Information</h2>
+            <button class="logout">Logout</button>
+        </div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBOarCZl7x5XvLW99hGM5QlZazr359ihK8",
+            authDomain: "auth-test-945af.firebaseapp.com",
+            databaseURL: "https://auth-test-945af.firebaseio.com",
+            projectId: "auth-test-945af",
+            storageBucket: "auth-test-945af.appspot.com",
+            messagingSenderId: "981287150100",
+            appId: "1:981287150100:web:9e4df81e1a49f718",
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="auth.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
