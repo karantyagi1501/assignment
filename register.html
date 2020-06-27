@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Register </title>
+</head>
+<body>
+    
+    <nav>
+        <div class="menu-icon">
+  <span class="fas fa-bars"></span></div>
+  <div class="logo">
+  Good Health App</div>
+  <div class="nav-items">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="register.html">Register</a></li>
+  <li><a href="lgin.html">Login</a></li>
+  </div>
+  <div class="search-icon">
+  <span class="fas fa-search"></span></div>
+  <div class="cancel-icon">
+  <span class="fas fa-times"></span></div>
+ 
+  </nav>
+
+    <div class="wrap">
+        <form>
+        <h2>Register Here</h2>
+       <p><input type ="text" id="t1"	 name ="Full Name" placeholder="Full Name"><br></p>
+        <p><input type ="email" id="t2" name ="Email" placeholder="Your Email"><br></p>
+        <p><input type ="text" id="t3" name ="Number" placeholder="10 Digit Mobile Number"><br></p>
+        <p><input type ="password" id="t4" name ="password" placeholder="Password"><br></p>
+        <p><input type ="password" id="t5" name ="Confirm Password" placeholder="Confirm Password"><br></p>
+        <input type= "radio" name="Gender" value="male">Male
+        <input type= "radio" name="Gender" value="female">Female
+        <br>
+        <h3><input type="checkbox">I Agree To the Terms of Use</h3>
+        <br>
+        <input type="submit" value="Submit" id="t7">
+        </form>
+        <script>
+        document.getElementById("t7").onclick=function validate()
+             {
+                            if (document.getElementById("t1").value=="")
+                            {
+                                alert("Please provide your Full Name name!");
+                                document.getElementById("t1").focus();
+                                return false;
+                            }
+        
+                                     if (document.getElementById("t2").value=="")
+                                     {
+                                             alert("Please provide your Email!");
+                                             document.getElementById("t2").focus();
+                                             return false;
+                                     }
+        
+                                                    if (document.getElementById("t3").value=="")
+                                                    {
+                                                        alert("Please provide your 10 Digit Mobile Number!");
+                                                        document.getElementById("t3").focus();
+                                                        return false;
+                                                    }
+        
+                                                                  if (document.getElementById("t4").value=="")
+                                                                   {
+                                                                     alert("Please provide your Password!");
+                                                                         document.getElementById("t4").focus();
+                                                                            return false;
+                                                                   }
+                                                                     if (document.getElementById("t5").value=="")
+                                                             {
+                                                                 alert("Please provide your Confirm Password!");
+                                                                 document.getElementById("t5").focus();
+                                                                 return false;
+                                                             }
+                                                        
+        }
+        </script>
+        </body>
+
+</body>
+</html>
