@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <nav>
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            Good Health App
+        </div>
+        <div class="nav-items">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="register.html">Register</a>
+            </li>
+            <li>
+                <a href="login.html">Login</a>
+            </li>
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+        <form action="#">
+            <input type="search" class="search-data" placeholder="Search" required>
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+    </nav>
+    <div class="center">
+        <div class="header">
+            Login
+        </div>
+        <form>
+            <small class="alert"></small>
+            <input type="text" required id="number" placeholder="Phone No.">
+            <i class="far fa-envelope"></i>
+            <div id="captcha-container"></div>
+            <button id="send-otp" class="otp-button">Send Otp</button>
+            <input id="otp" required="required" type="otp" placeholder="OTP">
+            <i class="fas fa-lock" onclick="show()"></i>
+            <input type="submit" id="verify-user" value="Log in">
+        </form>
+    </div>
+    <script>
+        function show() {
+            var otp = document.getElementById('otp');
+            var icon = document.querySelector('.fas');
+            if (otp.type === "otp") {
+                otp.type = "text";
+                otp.style.marginTop = "20px";
+                icon.style.color = "#7f2092";
+            } else {
+                otp.type = "otp";
+                icon.style.color = "grey";
+            }
+        }
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBOarCZl7x5XvLW99hGM5QlZazr359ihK8",
+            authDomain: "auth-test-945af.firebaseapp.com",
+            databaseURL: "https://auth-test-945af.firebaseio.com",
+            projectId: "auth-test-945af",
+            storageBucket: "auth-test-945af.appspot.com",
+            messagingSenderId: "981287150100",
+            appId: "1:981287150100:web:9e4df81e1a49f718",
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="custom.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
