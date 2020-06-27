@@ -1,0 +1,34 @@
+[{
+        "name": "Naveen kumar",
+        "userName": "uspolo87",
+        "contact": "9877338732",
+        "email": "naveen@gmail.com"
+    },
+
+    {
+        "name": "Sakshi tyagi",
+        "userName": "sakshi01",
+        "contact": "7409496713",
+        "email": "sakshi@gmail.com"
+    },
+
+    {
+        "name": "ashish",
+        "userName": "ashish01",
+        "contact": "9690846713",
+        "email": "ashish@gmail.com"
+    },
+
+    {
+        "name": "vishal",
+        "userName": "vishal01",
+        "contact": "9182038655",
+        "email": "vishal@gmail.com"
+    },
+    {
+        "name": "karan tyagi",
+        "userName": "karan01",
+        "contact": "7895988703",
+        "email": "karan@gmail.com"
+    }
+]
