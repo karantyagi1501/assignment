@@ -16,6 +16,10 @@ Step 1
 Install the live server on your laptop
 
 
+Install the VS code on your Laptop
+
+
+
 step 2
 
 
