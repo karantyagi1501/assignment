@@ -23,6 +23,9 @@ Step 2:
 
 
 1.	Now to need to run project using live server and here is the link for download live server : https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+
+
 Features-
 
 
@@ -47,7 +50,10 @@ Features-
 
 
 
+
 Testing
+
+
 
 
           For testing you need Pycharm Application and some plugins Like 
