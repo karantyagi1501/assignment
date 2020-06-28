@@ -34,7 +34,7 @@ Features-
 1-
 
 
-Here in signup page i have applied all the validtions like you need to fill all the fileds like user name,email,password and mobile no. If the user enter any email or mobile number which is already registred than user will get a message that user is already registred.
+1.Here in signup page I have applied all the validations like you need to fill all the fields like user name, email, password and mobile no. If the user enter email in incorrect format user will get an alert please enter correct email id and if user enter nothing in the register form user will get an alert please enter all valid information.
 
 
 2- 
