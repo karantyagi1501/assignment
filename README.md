@@ -204,8 +204,14 @@ def enter_otp(otp):
     
     
     
+    
+    
+    
 
 And for Register Page
+
+
+
 
 
 
