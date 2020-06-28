@@ -1,7 +1,7 @@
 Documentation
 
 
-This project is deployed using firebase and here is the link of firebase - https://auth-test-945af.firebaseapp.com/
+This project is deployed using firebase and here is the link  - https://auth-test-945af.firebaseapp.com/
 
 
 I have made this project by HTML CSS and JavaScript
