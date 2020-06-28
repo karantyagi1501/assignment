@@ -1,0 +1,41 @@
+{
+  "45352d45d4b090e6a25d40b7823ed70a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9410968fac0a2e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593262796690,
+        "stop" : 1593262804696,
+        "duration" : 8006
+      }
+    } ]
+  },
+  "c69583d9cc23f7dd14beb7ceb65dfbf1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd336d6178a1bfc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: please enter mobile number\nMessage: unexpected alert open: {Alert text : please enter mobile number}\n  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1593262813103,
+        "stop" : 1593262818124,
+        "duration" : 5021
+      }
+    } ]
+  }
+}

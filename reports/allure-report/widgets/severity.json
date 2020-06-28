@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b9410968fac0a2e9",
+  "name" : "test_validlogin",
+  "time" : {
+    "start" : 1593262796690,
+    "stop" : 1593262804696,
+    "duration" : 8006
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fd336d6178a1bfc",
+  "name" : "test_invalidlogin",
+  "time" : {
+    "start" : 1593262813103,
+    "stop" : 1593262818124,
+    "duration" : 5021
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
