@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+      - echo nothing to do
+    commands:
+      - echo Installing app dependencies...
+  build:
+    commands:
+      - echo Building static site...
+      
